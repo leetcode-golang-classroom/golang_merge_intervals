@@ -42,13 +42,15 @@ Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 
   intervals[j] = [$start_j, end_j$]
 
-if $start_i$ ≤ $start_j$ 代表 overlapStar
+if $start_i$ ≤ $start_j$ 代表 overlapStart
 
 則如果兩個 區間重疊 代表 $end_i$ ≥ $start_j$
 
 if $end_i$ ≤ $end_j$ 代表 overlapEnd = $end_j$
 
 否則 overlapEnd = $end_i$
+
+![](https://i.imgur.com/zSgRx6O.png)
 
 透過上述特性
 
