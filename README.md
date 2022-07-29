@@ -40,7 +40,7 @@ Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 
 假設 intervals[i] = [$start_i, end_i$]
 
-        intervals[j] = [$start_j, end_j$]
+  intervals[j] = [$start_j, end_j$]
 
 if $start_i$ ≤ $start_j$ 代表 overlapStar
 
